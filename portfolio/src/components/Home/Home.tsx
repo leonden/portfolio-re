@@ -1,8 +1,8 @@
-import React from "react";
-import "Home.scss";
+import React, { ReactNode } from "react";
+import "./Home.scss";
 
 class Home extends React.Component {
-  render() {
+  render(): ReactNode {
     return <h1>hello world</h1>;
   }
 }
