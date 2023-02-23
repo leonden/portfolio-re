@@ -10,8 +10,10 @@ class Head extends React.Component {
         <meta charSet="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <title>Beta</title>
-        <meta name="description" content="" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="description"
+          content="This is the portfolio of Leon Hochwimmer. Get in touch!"
+        />
         <link
           rel="icon"
           href={TabLight}
