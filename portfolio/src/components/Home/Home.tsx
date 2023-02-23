@@ -3,7 +3,11 @@ import "./Home.scss";
 
 class Home extends React.Component {
   render(): ReactNode {
-    return <h1>hello world</h1>;
+    return (
+      <section id="home">
+        <h1>home</h1>
+      </section>
+    );
   }
 }
 
