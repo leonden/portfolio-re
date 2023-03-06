@@ -2,7 +2,24 @@ import React, { ReactNode } from "react";
 import { Link } from "react-router-dom";
 import "./Navigation.scss";
 
-const actions = ["Home", "About", "Work", "Contact"];
+const actions = [
+  {
+    name: "Home",
+    link: "/",
+  },
+  {
+    name: "About",
+    link: "/about",
+  },
+  {
+    name: "Work",
+    link: "/work",
+  },
+  {
+    name: "Contact",
+    link: "/contact",
+  },
+];
 
 class Navigation extends React.Component {
   render(): ReactNode {
