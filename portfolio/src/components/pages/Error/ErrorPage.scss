@@ -1,0 +1,34 @@
+#error-page {
+  overflow: hidden;
+
+  h1 {
+    color: salmon;
+    z-index: 5;
+    font-style: italic;
+    font-size: 5em;
+  }
+
+  .page-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .background-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0%;
+  }
+
+  .semi-circle {
+    width: 50em;
+    height: 50em;
+    border-radius: 50%;
+    background-color: hsl(217, 57, 2);
+  }
+}
